@@ -52,10 +52,33 @@ picture {
     display: flex;
     align-items: center;
     margin: 20px 0;
+    
 
 }
 #product .product-content .mony .three-paregraph{
-    font-family: 'Fraunces', serif;
-    font-size: 32pox;
+    font-family:"Fraunces", serif;
+    
+    font-size: 30px;
     color: hsl(158, 36%, 37%);
+    margin-right: 15px;
+
+}
+#product .product-content .one-button{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    background-color:hsl(158, 36%, 37%) ;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}
+#product .product-content .one-button img{
+    margin-right: 10px;
+}
+.attribution{
+    text-align: center;
 }
